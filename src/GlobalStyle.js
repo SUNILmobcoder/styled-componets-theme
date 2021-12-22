@@ -5,11 +5,14 @@ const GlobaleStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Parisienne', cursive;
     }
 `;
 
 export default GlobaleStyle;
 
+// font-family: 'Nunito', sans-serif;
+// font-family: 'Parisienne', cursive;
 // const Wrapper = styled.div``;
 // const Button = styled.button``;
 // const OutlineButton = styled.button``;
