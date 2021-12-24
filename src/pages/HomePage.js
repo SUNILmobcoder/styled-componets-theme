@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Login, Story } from '../components';
+import { Login, Signup, Story } from '../components';
 
 const HomePage = () => {
   return (
     <Container>
+      <Signup />
       <Login />
       <Story />
     </Container>
